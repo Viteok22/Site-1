@@ -1,0 +1,60 @@
+body{
+	background-color: beige;
+	color: green;
+	margin: 0px;
+	padding: 0px;
+}
+
+.info{
+	background-color: pink;
+	color: red;
+	font-size: 25px;
+	margin-right: 180px;
+	margin-left: 130px;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	text-align: center;
+	box-shadow: 0px 10px 25px red;
+	height: 130px;
+
+}
+
+.baza{
+	background-color: yellow;
+	border-color: green;
+	padding: 20px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	box-shadow: 0px 10px 40px blue;
+	text-align: center;
+
+}
+.baza-text{
+	border-radius: 12%;
+	text-align: center;
+	padding-left: 30px; 
+	padding-right: 30px;
+	background-color: red;
+	padding-bottom: 20px;
+
+}
+.baza-achive{
+
+	background-color: black;
+	text-align: left;
+	font-size: 19px;
+	margin-bottom: 10px;
+
+}
+
+.baza img{
+	margin-top: 20px;
+	border-radius: 12%;
+	width: 60%;
+	height: 60%;
+	text-align: center;
+
+	
+}

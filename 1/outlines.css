@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(255, 250, 243);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.page-header{
+    border: solid red;
+    display: grid;
+    grid-template-columns: 210px 200px auto;
+}
+
+.page-main{
+    border: solid green;
+    
+}
+
+.feature{
+    background-color: rgb(98, 230, 98);
+    border-style: dashed;
+    border-radius: 5px;
+    border: solid black;
+    padding: 10px;
+
+}
+.features-list{
+    border: solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 15px;
+    gap: 15px;
+    column-gap: 30px;
+
+}
+
+.page-footer{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 25px;
+    padding: 15px;
+    margin-left: 0px;
+    
+}

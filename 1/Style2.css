@@ -1,0 +1,50 @@
+body{
+    background-color: #DDDAD3;
+    padding: 0;
+    color: #D1BF18;
+    
+}
+
+
+.header{
+    text-align: center;
+    margin-top: 10%;
+
+
+
+}
+
+.header a{
+    background-color: aquamarine;
+    outline: none;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    text-align: center;
+}
+
+.main{
+    background-color: greenyellow;
+    max-width: 1000px;
+    margin: 4% auto;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+
+}
+
+.content-img{
+width: 261;
+height: 249;
+
+}
+
+.content-page{
+margin: 4% auto;
+text-align: center;
+padding-top: 10%;
+padding-left: 50%;
+}
