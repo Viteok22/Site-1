@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    border: solid red;
+    box-shadow: 0px 0px 15px rgb(39, 115, 228);
+    /* display: flex;
+    justify-content: center; */
+}
+
+.container{
+    margin: 200px auto;
+    border: solid rgb(67, 218, 67);
+    display: flex;
+    gap: 50px;
+    justify-content: left;
+    max-width: 565px;
+    width: auto;
+
+    flex-wrap: wrap;
+   
+}
+.content-block{
+    width: 150px;
+    border-radius: 5%;
+    background-color: rgb(210, 218, 229);
+}
+
+.text{
+    margin: 8px;
+    text-align: center;
+    
+}
+img{
+    border-radius: 5%;
+    max-width: 150px;
+    max-height: auto;
+}
