@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(198, 198, 198);
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    
+}
+h1{
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.submenu{
+    margin: 0;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    border: 3px solid rgb(42, 41, 39);
+    line-height: 35px;
+    background-color: lightslategray;
+}
+
+.menu > li{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    padding-left: 40px;
+    font-size: 150%;
+    text-align: center;
+}
+
+li:hover .submenu{
+    visibility: visible;
+}
+
+.submenu > li:hover{
+    color:rgb(245, 245, 245);
+}
+.menu > li > a:hover{
+    color:rgb(238, 13, 13);
+}
+.post{
+    margin-top:  100px;
+    text-align: center;
+    background-color: rgb(115, 115, 108);
+    max-width: 400px;
+    min-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+    border: 3px solid rgb(33, 33, 27);
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+button{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    font-size: 150%;
+    border: 3px solid rgb(42, 41, 39);
+}
+button:hover{
+    color: rgb(70, 88, 130);
+}
+.header{
+    min-height: 170px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgb(172, 172, 172);
+    text-align: center;
+}
+.main{
+    background-color: rgb(198, 198, 198);
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer{
+    border-top: 2px solid rgb(0, 0, 0);
+    margin-top: 30px;
+    background-color: rgb(149, 149, 149);
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    
+
+}
+a{
+    margin-left: 20px;
+}
